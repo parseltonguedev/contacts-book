@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "contact-book"
+version = "0.1.0"
+description = ""
+authors = ["Bohdan Solianyk <bohdan_solianyk@epam.com>"]
+readme = "README.md"
+packages = [{include = "contact_book"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
